@@ -1,0 +1,130 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(crowd-1056764_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+ }
+
+
+.header {
+    background:linear-gradient(331deg, rgba(1,0,17,1) 20%, rgba(0,0,4,1) 81%);
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    width: 100%;
+    height: 80px;
+   
+}
+
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(331deg, rgba(1,0,17,1) 20%, rgba(255,255,255,1) 52%, rgba(0,0,4,1) 81%);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+   }
+
+.ylä {
+    text-decoration: none;
+    margin-left: 80px;
+    color: #003C43;
+    font-weight: bold;
+    
+}
+
+.ylä:hover {
+color: red;
+text-decoration: underline;
+}
+
+.section{
+    width: 600px;
+    height: 600px;
+    color: white;
+    display: flex;
+    margin-top:80px;
+    margin-left: 100px;
+    text-shadow: 2px 2px 7px #000000;
+}
+
+.Kesällä {
+    margin-left: 80px;
+
+}
+
+.tapahtumat
+{color: white;
+font-size: 30px;
+padding-top: 20px;
+padding-left: 60px;
+}
+
+ul{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: absolute;
+    line-height: 60px;
+    list-style-type: none;
+}
+
+
+.pystynavi {
+    padding-top: 80px;
+width: 250px;
+height: 750px; 
+float: left;
+background: linear-gradient(45deg, rgba(1,0,17,1) 0%, rgba(0,0,4,1) 100%);
+
+}
+
+
+
+.vasen {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    }
+
+    .vasen:hover:not(.Järjestäjiä){
+        color: rgb(96, 138, 252);
+        text-decoration: underline;
+    }
+
+    .Järjestäjiä {
+        margin-left: 80px;
+    }
+
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+
+h3 {
+color: white;
+font-size: 20px;
+}
